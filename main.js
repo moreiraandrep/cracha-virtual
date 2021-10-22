@@ -22,15 +22,10 @@ function getGitHubProfileInfos() {
   fetch(URL_BASE)
     .then(response => response.json())
     .then(data => {
-      console.log(data)
-
       userName.textContent = data.name
-
       userAvatar.src = data.avatar_url
-
       userLogin.href = data.html_url
       userLogin.children[1].textContent = data.login
-
       userBio.textContent = data.bio
     })
 }
