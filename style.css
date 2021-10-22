@@ -18,11 +18,7 @@ body {
 }
 
 main {
-<<<<<<< HEAD
-  background: url('images/background.svg');
-=======
-  background: url(images/background.svg);
->>>>>>> ec07d0cac406e909117594afcc6ce026c529191e
+  background-image: url('images/background.svg');
   width: 375px;
   height: 812px;
 }
